@@ -32,5 +32,5 @@ jobs:
 
       - name: Deploy with Helm
         run: |
-          helm upgrade --install demo-app ./helm-chart --namespace default
+          helm upgrade --install demo-app ./demo-app --namespace default
 
